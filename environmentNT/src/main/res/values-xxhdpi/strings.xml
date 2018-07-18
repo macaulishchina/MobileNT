@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cursor_scale">0.38</string>
+    <string name="cursor_scale_1">0.19</string>
+  <string name="index_label_bili">2</string>
+</resources>

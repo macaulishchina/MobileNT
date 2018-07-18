@@ -1,0 +1,47 @@
+{
+	 "stages": [
+            {
+                "span": 50,
+                "bottomstate": "优",
+                "bottomchar": "Ⅰ",
+                "introduce": "良好",
+                "level": 0
+            },
+            {
+                "span": 50,
+                "bottomstate": "良",
+                "bottomchar": "Ⅱ",
+                "introduce": "中等",
+                "level": 1
+            },
+            {
+                "span": 50,
+                "bottomstate": "轻度污染",
+                "bottomchar": "Ⅲ",
+                "introduce": "对敏感人群不健康",
+                "level": 2
+            },
+            {
+                "span": 50,
+                "bottomstate": "中度污染",
+                "bottomchar": "Ⅳ",
+                "introduce": "不健康",
+                "level": 3
+            },
+            {
+                "span": 100,
+                "bottomstate": "重度污染",
+                "bottomchar": "Ⅴ",
+                "introduce": "非常不健康",
+                "level": 4
+            },
+            {
+                "span": 200,
+                "bottomstate": "严重污染",
+                "bottomchar": "Ⅵ",
+                "introduce": "有毒害",
+                "level": 5
+            }
+            
+        ]
+}

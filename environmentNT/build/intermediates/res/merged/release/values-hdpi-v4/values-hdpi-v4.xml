@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="heal_tips">
+        <item>\u0020\u0020\u0020\u0020空气质量令人满意，基本无空气污染</item>
+        <item>\u0020\u0020\u0020\u0020空气质量可接受，但某些污染物可能对极少数异常敏感人群健康有较弱影响</item>
+        <item>\u0020\u0020\u0020\u0020易感人群症状有轻度加剧，健康人群出现刺激症状</item>
+        <item>\u0020\u0020\u0020\u0020进一步加剧易感人群症状，可能对健康人群心脏、呼吸系统有影响</item>
+        <item>\u0020\u0020\u0020\u0020心脏病和肺病患者症状显著加剧，运动耐受力降低，健康人群普遍出现症状</item>
+        <item>\u0020\u0020\u0020\u0020健康人群运动耐受力降低，有明显强烈症状，提前出现某些疾病</item>
+    </string-array>
+    <dimen name="add_station_height">35dp</dimen>
+    <dimen name="add_station_width">50dp</dimen>
+    <dimen name="aqi_textsize">38sp</dimen>
+    <dimen name="arrows_height">6dp</dimen>
+    <dimen name="arrows_width">8dp</dimen>
+    <dimen name="bottom_tab_font_size">10.0dip</dimen>
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+    <dimen name="bottom_tab_padding_up">5.0dip</dimen>
+    <dimen name="bttom_tab_paddingRigth">0dp</dimen>
+    <dimen name="city_info_margin_right">5dip</dimen>
+    <dimen name="corner_radius">9dip</dimen>
+    <dimen name="cursor_layout_height">100dp</dimen>
+    <dimen name="cursor_layout_width">85dp</dimen>
+    <dimen name="cursor_view_height">101dp</dimen>
+    <dimen name="cursor_view_marginLeft">25dp</dimen>
+    <dimen name="date_marginRight">5dp</dimen>
+    <dimen name="date_marginTop">10dp</dimen>
+    <dimen name="density_minHeight">30dp</dimen>
+    <dimen name="dialog_about_title_margin_top">150dip</dimen>
+    <dimen name="dialog_version_btn_margin_top">142dip</dimen>
+    <dimen name="fengxiang_size">10sp</dimen>
+    <dimen name="gvHeal_marginLeft">20dp</dimen>
+    <dimen name="gvheal_marginTop">5dp</dimen>
+    <dimen name="heal_tip_marginLeft">30dp</dimen>
+    <dimen name="heal_tip_marginTop">21dp</dimen>
+    <dimen name="heal_view_height">75dp</dimen>
+    <dimen name="health_padding">5dp</dimen>
+    <dimen name="health_padding_bottom">5dp</dimen>
+    <dimen name="health_tip_grid_width">270dp</dimen>
+    <dimen name="health_tip_panel_height">120dp</dimen>
+    <dimen name="health_tip_panel_width">300dp</dimen>
+    <dimen name="his_title_textSize">10sp</dimen>
+    <dimen name="huanbaologo_size">55dip</dimen>
+    <dimen name="index_lable_minheight">90dp</dimen>
+    <dimen name="index_list_height">200dp</dimen>
+    <dimen name="index_list_width">550dp</dimen>
+    <dimen name="logo_size">100dp</dimen>
+    <dimen name="main_tab_height">60dp</dimen>
+    <dimen name="margin_left">15dp</dimen>
+    <dimen name="margin_right">15dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="mid_text_size">16sp</dimen>
+    <dimen name="pm_title_height">35dp</dimen>
+    <dimen name="pm_title_textsize">20sp</dimen>
+    <dimen name="primaryName_textSize">9sp</dimen>
+    <dimen name="primary_textSize">9sp</dimen>
+    <dimen name="pullect_marginTop">5dp</dimen>
+    <dimen name="pullect_number_margin">5dp</dimen>
+    <dimen name="pv_textsize">25sp</dimen>
+    <dimen name="real_down_record_width">340dp</dimen>
+    <dimen name="real_time_chart_height">330dp</dimen>
+    <dimen name="realtimenew_pullect_number_margintop">210dp</dimen>
+    <dimen name="realtimenew_pullect_number_minheight">80dp</dimen>
+    <dimen name="record_view_padding_bottom">60dip</dimen>
+    <dimen name="record_view_padding_right">40dp</dimen>
+    <dimen name="smail_text_size">12sp</dimen>
+    <dimen name="tip_img_height">30dp</dimen>
+    <dimen name="tip_img_width">30dp</dimen>
+    <dimen name="title_status_bar_height">38dip</dimen>
+    <dimen name="tvName_size">5sp</dimen>
+    <dimen name="updatebar_content_height">80.0dip</dimen>
+    <dimen name="updatebar_height">82.0dip</dimen>
+    <dimen name="updatebar_marg">3.0dip</dimen>
+    <dimen name="updatebar_padding">10.0dip</dimen>
+    <dimen name="youliang_mintext_size">10sp</dimen>
+    <dimen name="youliang_text_size">15sp</dimen>
+    <dimen name="youliang_titletext_size">18sp</dimen>
+    <string name="add_check_position">添加监测站点</string>
+    <string name="app_name">南通环境质量</string>
+    <string name="aqi_label">AQI :</string>
+    <string name="baojing">报警信息</string>
+    <string name="cursor_scale">0.3</string>
+    <string name="cursor_scale_1">0.15</string>
+    <string name="gengduo">更多</string>
+    <string name="gis">GIS</string>
+    <string name="health_tip">健康提示</string>
+    <string name="index_label_bili">1.5</string>
+    <string name="jiance">监测数据</string>
+    <string name="label_desc">\u0020\u0020根据《地表水环境质量标准》(GB3838-2002),选择pH值、溶解度、高锰酸钾指数、氨氮、总磷、总氮六项指标,对全市16个水质自动站%1$s至站%2$s监测的水质状态进行综合评价,结果见下表。</string>
+    <string name="liang">良</string>
+    <string name="lishi">历史</string>
+    <string name="longdu">浓度</string>
+    <string name="ph">PH值</string>
+    <string name="pm25_title">24小时浓度值</string>
+    <string name="position_manager">位置管理</string>
+    <string name="position_select">站点选择</string>
+    <string name="qingduwuran">轻度污染</string>
+    <string name="shikuang">实况</string>
+    <string name="ug_unit">\u0020\u0020μg/m3</string>
+    <string name="unit_co">mg/m3</string>
+    <string name="unit_day">单位：(天)</string>
+    <string name="unit_pm">μg/m3</string>
+    <string name="yanzhongwuran">严重污染</string>
+    <string name="you">优</string>
+    <string name="yubao">预报</string>
+    <string name="zhongdu2wuran">重度污染</string>
+    <string name="zhongduwuran">中度污染</string>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barLength">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+    <style name="ColorTextItemStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+</resources>

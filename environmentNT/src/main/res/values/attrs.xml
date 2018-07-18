@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="tabWidget">
+        <attr name="icon2" format="reference|color" />
+        <attr name="iconWidth" format="dimension" />
+        <attr name="iconHeight" format="dimension" />
+        <attr name="text" format="reference|string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="arrowView">
+        <attr name="arrowDefault" format="integer" />
+        <attr name="arrowNumber" format="integer" />
+        <attr name="arrowDefaultIcon" format="reference|color" />
+        <attr name="arrowIcon" format="reference|color" />
+        <attr name="arrowPadding" format="dimension" />
+    </declare-styleable>
+
+    <attr name="page_bg" format="reference" />
+    <attr name="more_item_bg" format="reference" />
+    <attr name="aqi_select_btn" format="reference" />
+    <attr name="line" format="reference" />
+    <attr name="dialog_bg" format="reference" />
+    <attr name="dialog_btn" format="reference" />
+    <attr name="first_pullect_value_bg" format="reference" />
+    <attr name="city_info_line" format="reference" />
+    <attr name="health_prompt_bg" format="reference" />
+    <attr name="aqi_chart_bg" format="reference" />
+    <attr name="gis_header_bg" format="reference" />
+    <attr name="time" format="reference" />
+
+</resources>

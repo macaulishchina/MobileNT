@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <include
+        android:id="@+id/top_bar_layout"
+        layout="@layout/include_online_title" />
+
+    <LinearLayout
+        android:id="@+id/ll_top_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/top_bar_layout"
+        android:layout_margin="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+        <RadioGroup
+            android:id="@+id/online_rg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/online_rb_yinzi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bgcolor2"
+                android:button="@null"
+                android:gravity="center"
+                android:text="常规因子"
+                android:textColor="@drawable/selector_bgcolor1" />
+
+            <RadioButton
+                android:id="@+id/online_rb_chaoji"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bgcolor2"
+                android:button="@null"
+                android:gravity="center"
+                android:text="超级站"
+                android:textColor="@drawable/selector_bgcolor1" />
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/vPager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_top_bar_layout"
+        android:layout_gravity="center"
+        android:background="@color/transparent"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+</RelativeLayout>

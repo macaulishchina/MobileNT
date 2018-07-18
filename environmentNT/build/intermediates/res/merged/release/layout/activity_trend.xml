@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_bar_layout"
+        layout="@layout/include_trend_title" />
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_bar_layout">
+
+        <!--  <LinearLayout
+               android:id="@+id/logo_layout"
+               style="@style/BottomLogoStyle"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true" >
+
+               <include
+                   android:layout_width="@dimen/huanbaologo_size"
+                   android:layout_height="@dimen/huanbaologo_size"
+                   layout="@layout/inclue_logo_layout" />
+           </LinearLayout> -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dip"
+            android:layout_toRightOf="@+id/logo_layout">
+
+            <RadioGroup
+                android:id="@+id/select_aqi_group"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_below="@+id/top_explain"
+                android:layout_marginLeft="48dip"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_by_24_hour"
+                    android:layout_width="81dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="?aqi_select_btn"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="最近24小时"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/his_title_textSize" />
+
+                <RadioButton
+                    android:id="@+id/radio_by_7_day"
+                    android:layout_width="81dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="?aqi_select_btn"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="最近7天"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/his_title_textSize" />
+
+                <RadioButton
+                    android:id="@+id/radio_by_custom_day"
+                    android:layout_width="81dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="?aqi_select_btn"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="自定义"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/his_title_textSize" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radio_group_chart"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/select_aqi_group"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_line_chart"
+                    style="@style/RadioStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="曲线图" />
+
+                <RadioButton
+                    android:id="@+id/radio_mixed_chart"
+                    style="@style/RadioStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:text="柱状图" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/top_explain"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="空气质量指数(AQI)日变化"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center">
+
+        <include layout="@layout/layout_date_select" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_above="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="首要污染物及浓度"
+        android:textColor="@color/white" />
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/date_layout"
+        android:background="#3000" />
+
+
+    <LinearLayout
+        android:id="@+id/aqi_chart_layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/recycler_view"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chart_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="最近7天"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_zhexiantu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/recycler_view"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recycler_view"
+            android:visibility="visible">
+
+            <com.iceman.paintdemo.RecordView
+                android:id="@+id/record_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

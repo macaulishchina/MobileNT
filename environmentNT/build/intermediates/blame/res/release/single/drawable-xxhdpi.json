@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/release/drawable-xxhdpi/login_bg.png",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/drawable-xxhdpi/login_bg.png"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/release/drawable-xxhdpi/label_selected.png",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/drawable-xxhdpi/label_selected.png"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/release/drawable-xxhdpi/label_default.png",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/drawable-xxhdpi/label_default.png"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/release/drawable-xxhdpi/leftjiantou.png",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/drawable-xxhdpi/leftjiantou.png"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/release/drawable-xxhdpi/changepassword.png",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/drawable-xxhdpi/changepassword.png"
+    }
+]

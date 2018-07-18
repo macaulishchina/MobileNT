@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="index_list_height">100</integer>
+    <integer name="index_label_bili">3</integer>
+    <integer name="max_move_200">125</integer>
+    <integer name="max_size">20</integer>
+    <integer name="min_size">10</integer>
+    <integer name="column_x_width">14</integer>
+    <integer name="chart_y_linewidth">1</integer>
+    <integer name="chart_x_linecount">15</integer>
+
+</resources>

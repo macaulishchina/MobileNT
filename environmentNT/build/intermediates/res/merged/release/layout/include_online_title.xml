@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TopBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_status_bar_height"
+    android:orientation="horizontal"
+    android:weightSum="21" >
+
+    <RelativeLayout
+        android:id="@+id/change_station_icon"
+        style="@style/TopBarViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/add_station_height"
+         
+        android:layout_weight="3" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/change_site" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/change_station_icon" />
+
+    <LinearLayout
+        style="@style/TopBarViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/add_station_height"
+        android:layout_weight="12"
+        android:gravity="center" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/top_qiehuan"
+        style="@style/TopBarViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/add_station_height"
+        android:gravity="center" >
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/change_system"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/more_change_system" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top_refresh"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/add_station_height"
+        android:layout_weight="3" >
+
+        <com.sinoyd.environmentNT.view.RefreshButton
+            android:id="@+id/top_refresh_btn"
+            android:layout_width="20dp"
+            android:layout_height="@dimen/add_station_height"
+            android:layout_centerInParent="true"
+            android:src="@drawable/top_refresh" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top_more"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/add_station_height"
+        android:layout_alignParentRight="true"
+        android:layout_weight="3"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="24dp"
+            android:src="@drawable/more" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ep="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_bar_layout"
+        layout="@layout/include_water_week_title" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_bar_layout"
+        android:layout_gravity="center"
+        android:background="@color/transparent"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+    <com.sinoyd.environmentNT.view.ArrowView
+        android:id="@+id/arrowView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24.0dip"
+        android:gravity="center"
+        ep:arrowDefault="1"
+        ep:arrowDefaultIcon="@drawable/slider"
+        ep:arrowIcon="@drawable/large_slider"
+        ep:arrowNumber="4"
+        ep:arrowPadding="5dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_gis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_bar_layout"
+        android:orientation="vertical">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bmapView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/show_list"
+                android:layout_width="fill_parent"
+                android:layout_height="35dip"
+                android:background="@drawable/gis_header_bg">
+
+                <ImageView
+                    android:id="@+id/arrow_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/arrow_top" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/viewContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dip"
+                    android:background="@color/headtitle_background"
+                    android:orientation="horizontal"
+                    android:paddingBottom="2dip"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:paddingTop="2dip">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:gravity="center"
+                        android:text="站点名称"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/mid_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="15dip"
+                        android:layout_weight="0.3"
+                        android:gravity="center"
+                        android:text="AQI"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/mid_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="15dip"
+                        android:layout_weight="0.3"
+                        android:gravity="center"
+                        android:text="空气质量状况"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/mid_text_size"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/listview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+
+
+                    android:cacheColorHint="@color/transparent"
+                    android:divider="@color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gis"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:background="#3d413a"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#3d413a"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_gis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/jiantouxia" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#3a82D2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:text="站点名称"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:text="AQI数值"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="首要污染物"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="污染程度"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:layout_marginBottom="20dp"
+                android:id="@+id/lv_gis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"></ListView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

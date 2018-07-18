@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ep="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--
+         <include
+        android:id="@+id/top_bar_layout"
+        layout="@layout/inclue_main_bar" />
+    -->
+
+    <include
+        android:id="@+id/top_bar_layout"
+        layout="@layout/include_water_week_title" />
+
+    <RelativeLayout
+        android:id="@+id/top_date_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_bar_layout"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- <LinearLayout
+            android:id="@+id/logo_layout"
+            style="@style/BottomLogoStyle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <include layout="@layout/inclue_logo_layout" />
+        </LinearLayout> -->
+
+        <RelativeLayout
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp" >
+
+            <RadioGroup
+                android:id="@+id/radio_group_chart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date_time"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <RadioButton
+                    android:id="@+id/radio_listview"
+                    style="@style/RadioStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="列表" />
+
+                <RadioButton
+                    android:id="@+id/radio_line_chart"
+                    style="@style/RadioStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dip"
+                    android:text="曲线图" />
+            </RadioGroup>
+
+            <include
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                layout="@layout/layout_date_select"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/top_date_layout" >
+
+        <LinearLayout
+            android:id="@+id/listview_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <include
+                android:id="@+id/table_title"
+                layout="@layout/monitor_data_item2" />
+
+            <ListView
+                android:id="@+id/densityValueList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@color/transparent"
+                android:listSelector="@android:color/transparent" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/chart_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:id="@+id/water_chart_layout1"
+                    style="@style/ChartLayoutStyle" >
+
+                    <TextView
+                        android:id="@+id/chart_text1"
+                        style="@style/LineTextStyle"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:drawableLeft="@drawable/line_hongse"
+                        android:text="藻密度" />
+
+                    <com.iceman.paintdemo.RecordView
+                        android:id="@+id/record_view1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/chart_text1" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/water_chart_layout2"
+                    style="@style/ChartLayoutStyle" >
+
+                    <LinearLayout
+                        android:id="@+id/line_layout1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/chart_text2"
+                            style="@style/LineTextStyle"
+                            android:layout_marginLeft="5dp"
+                            android:drawableLeft="@drawable/line_chense"
+                            android:text="CODmn" />
+
+                        <TextView
+                            android:id="@+id/chart_text3"
+                            style="@style/LineTextStyle"
+                            android:layout_marginLeft="5dp"
+                            android:drawableLeft="@drawable/line_lanse"
+                            android:text="PH值" />
+
+                        <TextView
+                            android:id="@+id/chart_text4"
+                            style="@style/LineTextStyle"
+                            android:layout_marginLeft="5dp"
+                            android:drawableLeft="@drawable/line_hongse"
+                            android:text="溶解氧" />
+
+                        <TextView
+                            android:id="@+id/chart_text5"
+                            style="@style/LineTextStyle"
+                            android:layout_marginLeft="5dp"
+                            android:drawableLeft="@drawable/line_lvse"
+                            android:text="浊度" />
+
+                        <TextView
+                            android:id="@+id/chart_text6"
+                            style="@style/LineTextStyle"
+                            android:layout_marginLeft="5dp"
+                            android:drawableLeft="@drawable/line_zise"
+                            android:text="水温" />
+                    </LinearLayout>
+
+                    <com.iceman.paintdemo.RecordView
+                        android:id="@+id/record_view2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/line_layout1" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/water_chart_layout3"
+                    style="@style/ChartLayoutStyle"
+                    android:visibility="visible" >
+
+                    <LinearLayout
+                        android:id="@+id/line_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/chart_text7"
+                            style="@style/LineTextStyle"
+                            android:layout_marginLeft="5dp"
+                            android:drawableLeft="@drawable/line_chense"
+                            android:gravity="right"
+                            android:text=""
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/chart_text8"
+                            style="@style/LineTextStyle"
+                            android:layout_marginLeft="5dp"
+                            android:drawableLeft="@drawable/line_chense"
+                            android:text="氨氮" />
+
+                        <TextView
+                            android:id="@+id/chart_text9"
+                            style="@style/LineTextStyle"
+                            android:layout_marginLeft="5dp"
+                            android:drawableLeft="@drawable/line_lanse"
+                            android:text="总磷" />
+
+                        <TextView
+                            android:id="@+id/chart_text10"
+                            style="@style/LineTextStyle"
+                            android:layout_marginLeft="5dp"
+                            android:drawableLeft="@drawable/line_hongse"
+                            android:text="总氮" />
+
+                        <TextView
+                            android:id="@+id/chart_text11"
+                            style="@style/LineTextStyle"
+                            android:layout_marginLeft="5dp"
+                            android:drawableLeft="@drawable/line_chense"
+                            android:gravity="right"
+                            android:text=""
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <com.iceman.paintdemo.RecordView
+                        android:id="@+id/record_view3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/line_layout" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

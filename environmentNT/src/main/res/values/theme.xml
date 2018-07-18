@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="SinoydTheme" parent="@android:style/Theme.Black.NoTitleBar"></style>
+
+    <style name="Theme.Default" parent="SinoydTheme">
+        <item name="page_bg">@drawable/page_bg</item>
+        <item name="more_item_bg">@drawable/more_item_bg</item>
+        <item name="aqi_select_btn">@drawable/aqi_select_btn</item>
+        <item name="line">@drawable/line</item>
+        <item name="dialog_bg">@drawable/dialog_bg</item>
+        <item name="dialog_btn">@drawable/dialog_btn</item>
+        <item name="first_pullect_value_bg">@drawable/first_pullect_value_bg</item>
+        <item name="city_info_line">@drawable/city_info_line</item>
+        <item name="health_prompt_bg">@drawable/health_prompt_bg</item>
+        <item name="aqi_chart_bg">@drawable/aqi_chart_bg</item>
+        <item name="gis_header_bg">@drawable/gis_header_bg</item>
+        <item name="time">@drawable/time</item>
+    </style>
+
+
+    <style name="frm_dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--半透明-->
+        <item name="android:windowNoTitle">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--模糊-->
+    </style>
+
+
+    <!--  <style name="Theme.Mhdh" parent="SinoydTheme">
+         <item name="page_bg">@drawable/mhdh_page_bg</item>
+         <item name="more_item_bg">@drawable/mhdh_more_item_bg</item>
+         <item name="aqi_select_btn">@drawable/mhdh_aqi_select_btn</item>
+         <item name="line">@drawable/mhdh_line</item>
+         <item name="dialog_bg">@drawable/mhdh_dialog_bg</item>
+         <item name="dialog_btn">@drawable/mhdh_dialog_btn</item>
+         <item name="first_pullect_value_bg">@drawable/mhdh_first_pullect_value_bg</item>
+         <item name="city_info_line">@drawable/mhdh_city_info_line</item>
+         <item name="health_prompt_bg">@drawable/mhdh_health_prompt_bg</item>
+         <item name="aqi_chart_bg">@drawable/mhdh_aqi_chart_bg</item>
+         <item name="gis_header_bg">@drawable/mhdh_gis_header_bg</item>
+         <item name="time">@drawable/mhdh_time</item>
+     </style>
+
+     <style name="Theme.Smfg" parent="SinoydTheme">
+         <item name="page_bg">@drawable/smfg_page_bg</item>
+         <item name="more_item_bg">@drawable/smfg_more_item_bg</item>
+         <item name="aqi_select_btn">@drawable/smfg_aqi_select_btn</item>
+         <item name="line">@drawable/smfg_line</item>
+         <item name="dialog_bg">@drawable/smfg_dialog_bg</item>
+         <item name="dialog_btn">@drawable/smfg_dialog_btn</item>
+         <item name="first_pullect_value_bg">@drawable/smfg_first_pullect_value_bg</item>
+         <item name="city_info_line">@drawable/smfg_city_info_line</item>
+         <item name="health_prompt_bg">@drawable/smfg_health_prompt_bg</item>
+         <item name="aqi_chart_bg">@drawable/smfg_aqi_chart_bg</item>
+         <item name="gis_header_bg">@drawable/smfg_gis_header_bg</item>
+         <item name="time">@drawable/smfg_time</item>
+     </style>
+
+     <style name="Theme.Xrds" parent="SinoydTheme">
+         <item name="page_bg">@drawable/xrds_page_bg</item>
+         <item name="more_item_bg">@drawable/xrds_more_item_bg</item>
+         <item name="aqi_select_btn">@drawable/xrds_aqi_select_btn</item>
+         <item name="line">@drawable/xrds_line</item>
+         <item name="dialog_bg">@drawable/xrds_dialog_bg</item>
+         <item name="dialog_btn">@drawable/xrds_dialog_btn</item>
+         <item name="first_pullect_value_bg">@drawable/xrds_first_pullect_value_bg</item>
+         <item name="city_info_line">@drawable/xrds_city_info_line</item>
+         <item name="health_prompt_bg">@drawable/xrds_health_prompt_bg</item>
+         <item name="aqi_chart_bg">@drawable/xrds_aqi_chart_bg</item>
+         <item name="gis_header_bg">@drawable/xrds_gis_header_bg</item>
+         <item name="time">@drawable/xrds_time</item>
+     </style>
+
+     <style name="Theme.Tyfg" parent="SinoydTheme">
+         <item name="page_bg">@drawable/tyfg_page_bg</item>
+         <item name="more_item_bg">@drawable/tyfg_more_item_bg</item>
+         <item name="aqi_select_btn">@drawable/tyfg_aqi_select_btn</item>
+         <item name="line">@drawable/tyfg_line</item>
+         <item name="dialog_bg">@drawable/tyfg_dialog_bg</item>
+         <item name="dialog_btn">@drawable/tyfg_dialog_btn</item>
+         <item name="first_pullect_value_bg">@drawable/tyfg_first_pullect_value_bg</item>
+         <item name="city_info_line">@drawable/tyfg_city_info_line</item>
+         <item name="health_prompt_bg">@drawable/tyfg_health_prompt_bg</item>
+         <item name="aqi_chart_bg">@drawable/tyfg_aqi_chart_bg</item>
+         <item name="gis_header_bg">@drawable/tyfg_gis_header_bg</item>
+         <item name="time">@drawable/tyfg_time</item>
+     </style>
+
+     <style name="Theme.Qxkq" parent="SinoydTheme">
+         <item name="page_bg">@drawable/qxkq_page_bg</item>
+         <item name="more_item_bg">@drawable/tyfg_more_item_bg</item>
+         <item name="aqi_select_btn">@drawable/tyfg_aqi_select_btn</item>
+         <item name="line">@drawable/tyfg_line</item>
+         <item name="dialog_bg">@drawable/tyfg_dialog_bg</item>
+         <item name="dialog_btn">@drawable/tyfg_dialog_btn</item>
+         <item name="first_pullect_value_bg">@drawable/tyfg_first_pullect_value_bg</item>
+         <item name="city_info_line">@drawable/tyfg_city_info_line</item>
+         <item name="health_prompt_bg">@drawable/tyfg_health_prompt_bg</item>
+         <item name="aqi_chart_bg">@drawable/tyfg_aqi_chart_bg</item>
+         <item name="gis_header_bg">@drawable/tyfg_gis_header_bg</item>
+         <item name="time">@drawable/tyfg_time</item>
+     </style>
+
+     <style name="Theme.Ysml" parent="SinoydTheme">
+         <item name="page_bg">@drawable/ysml_page_bg</item>
+         <item name="more_item_bg">@drawable/ysml_more_item_bg</item>
+         <item name="aqi_select_btn">@drawable/ysml_aqi_select_btn</item>
+         <item name="line">@drawable/ysml_line</item>
+         <item name="dialog_bg">@drawable/ysml_dialog_bg</item>
+         <item name="dialog_btn">@drawable/ysml_dialog_btn</item>
+         <item name="first_pullect_value_bg">@drawable/ysml_first_pullect_value_bg</item>
+         <item name="city_info_line">@drawable/ysml_city_info_line</item>
+         <item name="health_prompt_bg">@drawable/ysml_health_prompt_bg</item>
+         <item name="aqi_chart_bg">@drawable/ysml_aqi_chart_bg</item>
+         <item name="gis_header_bg">@drawable/ysml_gis_header_bg</item>
+         <item name="time">@drawable/ysml_time</item>
+     </style> -->
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="60dip"
+        android:layout_height="30dip"
+        android:background="@drawable/gis_1"
+        android:text="121"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:layout_width="20dip"
+        android:layout_height="25dip"
+        android:indeterminate="true"
+        android:indeterminateDuration="100"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@anim/gis_anim_image" />
+
+</LinearLayout>

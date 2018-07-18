@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="#e0000000"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="center"
+            android:text="水质等级说明"
+            android:textColor="@color/white"
+            android:textSize="24.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setting_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="?line"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#e0000000"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20.0dip" >
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="150.0px"
+                    android:layout_height="wrap_content"
+                    android:text="Ⅰ～Ⅱ类水质\n优\n蓝色"
+                    android:textColor="#00ffff"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:text="饮用水源地一级保护区、珍稀水生生物栖息地、鱼虾类产卵"
+                    android:textColor="#ffebebeb"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20.0dip" >
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="150.0px"
+                    android:layout_height="wrap_content"
+                    android:text="Ⅲ类水质\n良好\n绿色"
+                    android:textColor="#00ff00"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:text="饮用水源地二级保护区、鱼虾类越冬场、水产养殖区、游泳区"
+                    android:textColor="#ffebebeb"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20.0dip" >
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="150.0px"
+                    android:layout_height="wrap_content"
+                    android:text="Ⅳ类水质\n轻度污染\n黄色"
+                    android:textColor="#ffff00"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:text="一般工业用水和人体非直接接触的娱乐用水"
+                    android:textColor="#ffebebeb"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20.0dip" >
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="150.0px"
+                    android:layout_height="wrap_content"
+                    android:text="Ⅴ类水质\n中度污染\n橙色"
+                    android:textColor="#ff7900"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:text="农业用水及一般景观用水"
+                    android:textColor="#ffebebeb"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20.0dip" >
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="150.0px"
+                    android:layout_height="wrap_content"
+                    android:text="劣Ⅴ类水质\n重度污染\n红色"
+                    android:textColor="#ff0000"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:text="除调节局部气候外，使用功能较差"
+                    android:textColor="#ffebebeb"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

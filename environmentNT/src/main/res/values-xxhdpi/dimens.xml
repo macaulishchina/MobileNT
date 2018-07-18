@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="menubutton_size">4sp</dimen>
+    <dimen name="loadversionname_size">4sp</dimen>
+ <!-- AQI页面指标柱状图高度 -->
+    <dimen name="realtimenew_pullect_number_minheight">150dp</dimen>
+      <!-- AQI页面指标柱状图距离顶部高度 -->
+    <dimen name="realtimenew_pullect_number_margintop">180dp</dimen>
+      <!-- 风向字体大小 -->
+    <dimen name="fengxiang_size">10sp</dimen>
+       <!-- 指标字体大小 -->
+    <dimen name="tvName_size">20sp</dimen>
+</resources>

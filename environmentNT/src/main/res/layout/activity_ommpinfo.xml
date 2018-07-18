@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/top_bar_layout"
+        layout="@layout/include_water_week_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" >
+
+        <include layout="@layout/layout_date_select" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparentdarkblack"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/name"
+                    style="@style/TextStyle"
+                    android:layout_width="90dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="测点" />
+
+                <com.sinoyd.environmentNT.view.MyHScrollView
+                    android:id="@+id/headscrollview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fadeScrollbars="true"
+                    android:fadingEdge="none"
+                    android:overScrollMode="never"
+                    android:scrollbars="none"
+                    android:fillViewport="true"
+                     >
+
+                    <LinearLayout
+                        android:id="@+id/list_header_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_taskname"
+                            style="@style/TextStyle"
+                            android:layout_width="100dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="任务名称" />
+
+                        <!--
+                             <TextView
+                            android:id="@+id/tv_status"
+                            style="@style/TextStyle"
+                            android:layout_width="78dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:drawableRight="@drawable/icon_arrow_bottom"
+                            android:gravity="center"
+                            android:text="状态" />
+                        -->
+
+                        <Spinner
+                            android:id="@+id/ sp_status"
+                            android:background="@drawable/icon_arrow_bottom"
+                            android:layout_width="90dp"
+                            android:layout_height="30dp"
+                             android:layout_gravity="center"
+                             android:gravity="center"
+                            
+                            android:spinnerMode="dialog"
+                            android:textColor="@color/gray_60"
+                              
+                             />
+
+                        <TextView
+                            android:id="@+id/tv_planfinishdate"
+                            style="@style/TextStyle"
+                            android:layout_width="160dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="计划完成时间" 
+                            android:drawableRight="@drawable/icon_arrow_bottom_tv"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_realfinishdate"
+                            style="@style/TextStyle"
+                            android:layout_width="160dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="实际完成时间" 
+                           android:drawableRight="@drawable/icon_arrow_bottom_tv"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_operateuser"
+                            style="@style/TextStyle"
+                            android:layout_width="78dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center"
+                            android:text="执行人" />
+                    </LinearLayout>
+                </com.sinoyd.environmentNT.view.MyHScrollView>
+            </LinearLayout>
+
+            <com.sinoyd.environmentNT.view.VerticalScrollView
+                android:id="@+id/refreshlistview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@color/transparent"
+                android:fadeScrollbars="true"
+                android:fadingEdge="none"
+                android:listSelector="@android:color/transparent"
+                android:overScrollMode="never"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

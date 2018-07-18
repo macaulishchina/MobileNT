@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/list_item_bg_"
+         android:id="@+id/ll_txt_station"
+         android:gravity="center"
+         ><TextView
+         android:layout_width="100dp"
+         android:layout_height="40dp"
+         android:text="站点管理"
+         android:textSize="20sp"
+         android:textColor="@color/white"
+         android:textAlignment="center"
+         android:gravity="center"
+         android:id="@+id/txt_station"
+         android:background="@drawable/bg_btn"
+         android:layout_centerHorizontal="true"
+         /></LinearLayout>
+
+     <ExpandableListView
+        android:id="@+id/site_list_list"
+        android:layout_below="@id/ll_txt_station"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:cacheColorHint="@color/transparent"
+        android:layout_centerInParent="true"
+        android:dividerHeight="1dp" />
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+E:\Mobile Development\EnvironmentTaiCang
+         -                              
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From EnvironmentKSPulePaintDemo:
+* proguard-project.txt
+* wjpulepaintdemo.jar
+From EnvironmentSZ_Avanced:
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:22.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In EnvironmentKSPulePaintDemo:
+* AndroidManifest.xml => environmentKSPulePaintDemo\src\main\AndroidManifest.xml
+* assets\ => environmentKSPulePaintDemo\src\main\assets
+* res\ => environmentKSPulePaintDemo\src\main\res
+* src\ => environmentKSPulePaintDemo\src\main\java\
+In EnvironmentSZ_Avanced:
+* AndroidManifest.xml => environmentSZ_Avanced\src\main\AndroidManifest.xml
+* assets\ => environmentSZ_Avanced\src\main\assets
+* libs\achartengine-1.1.0.jar => environmentSZ_Avanced\libs\achartengine-1.1.0.jar
+* libs\arm64-v8a\libBaiduMapSDK_base_v3_7_3.so => environmentSZ_Avanced\src\main\jniLibs\arm64-v8a\libBaiduMapSDK_base_v3_7_3.so
+* libs\arm64-v8a\libBaiduMapSDK_map_v3_7_3.so => environmentSZ_Avanced\src\main\jniLibs\arm64-v8a\libBaiduMapSDK_map_v3_7_3.so
+* libs\arm64-v8a\liblocSDK6a.so => environmentSZ_Avanced\src\main\jniLibs\arm64-v8a\liblocSDK6a.so
+* libs\armeabi-v7a\libBaiduMapSDK_base_v3_7_3.so => environmentSZ_Avanced\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_base_v3_7_3.so
+* libs\armeabi-v7a\libBaiduMapSDK_map_v3_7_3.so => environmentSZ_Avanced\src\main\jniLibs\armeabi-v7a\libBaiduMapSDK_map_v3_7_3.so
+* libs\armeabi-v7a\liblocSDK6a.so => environmentSZ_Avanced\src\main\jniLibs\armeabi-v7a\liblocSDK6a.so
+* libs\armeabi\libBaiduMapSDK_base_v3_7_3.so => environmentSZ_Avanced\src\main\jniLibs\armeabi\libBaiduMapSDK_base_v3_7_3.so
+* libs\armeabi\libBaiduMapSDK_map_v3_7_3.so => environmentSZ_Avanced\src\main\jniLibs\armeabi\libBaiduMapSDK_map_v3_7_3.so
+* libs\armeabi\liblocSDK6a.so => environmentSZ_Avanced\src\main\jniLibs\armeabi\liblocSDK6a.so
+* libs\BaiduLBS_Android.jar => environmentSZ_Avanced\libs\BaiduLBS_Android.jar
+* libs\httpmime-4.1.1.jar => environmentSZ_Avanced\libs\httpmime-4.1.1.jar
+* libs\sinoydcontrol.jar => environmentSZ_Avanced\libs\sinoydcontrol.jar
+* libs\umeng_sdk.jar => environmentSZ_Avanced\libs\umeng_sdk.jar
+* libs\x86\libBaiduMapSDK_base_v3_7_3.so => environmentSZ_Avanced\src\main\jniLibs\x86\libBaiduMapSDK_base_v3_7_3.so
+* libs\x86\libBaiduMapSDK_map_v3_7_3.so => environmentSZ_Avanced\src\main\jniLibs\x86\libBaiduMapSDK_map_v3_7_3.so
+* libs\x86\liblocSDK6a.so => environmentSZ_Avanced\src\main\jniLibs\x86\liblocSDK6a.so
+* libs\x86_64\libBaiduMapSDK_base_v3_7_3.so => environmentSZ_Avanced\src\main\jniLibs\x86_64\libBaiduMapSDK_base_v3_7_3.so
+* libs\x86_64\libBaiduMapSDK_map_v3_7_3.so => environmentSZ_Avanced\src\main\jniLibs\x86_64\libBaiduMapSDK_map_v3_7_3.so
+* libs\x86_64\liblocSDK6a.so => environmentSZ_Avanced\src\main\jniLibs\x86_64\liblocSDK6a.so
+* libs\xcl-charts.jar => environmentSZ_Avanced\libs\xcl-charts.jar
+* libs\xUtils-2.6.10.jar => environmentSZ_Avanced\libs\xUtils-2.6.10.jar
+* res\ => environmentSZ_Avanced\src\main\res\
+* src\ => environmentSZ_Avanced\src\main\java\
+* src\com\sinoyd\environmentsz\http\WeatherResult.rar => environmentSZ_Avanced\src\main\resources\com\sinoyd\environmentsz\http\WeatherResult.rar
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

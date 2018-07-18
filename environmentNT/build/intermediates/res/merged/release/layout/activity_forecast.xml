@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/inclue_main_bar" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="right"
+        android:id="@+id/DateTime"
+        android:paddingLeft="@dimen/margin_top"
+        android:paddingRight="@dimen/margin_top"
+        android:text="2013-12-9 9:00发布"
+        android:textSize="@dimen/smail_text_size" />
+
+    <TextView
+        style="@style/forecastTitleStyle"
+        android:text="今天天气预报情况" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_top"
+        android:paddingRight="25dip" >
+
+        <TextView
+            android:id="@+id/TimeSpan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:text="8:00-12:00"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/Class"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="中度污染"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/PrimaryPollutant"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="PM10\n176~186"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/forecastTitleStyle"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="扩展条件" />
+
+    <TextView
+        android:id="@+id/DiffusionCondition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_top"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="6月白天，我市天气很好很好很好"
+        android:textColor="@color/white"
+        android:textSize="14dip" />
+
+    <TextView
+        style="@style/forecastTitleStyle"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="健康提示" />
+
+    <TextView
+        android:id="@+id/HealthEffect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_top"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="儿童，老年人和心脏病等停留在屋内，停止户外运动，一般人群减少户外运动"
+        android:textColor="@color/white"
+        android:textSize="14dip" />
+
+    <LinearLayout
+        android:id="@+id/health_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="?health_prompt_bg"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_top"
+        android:paddingTop="@dimen/margin_top" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            android:drawableRight="@drawable/health_right_icon"
+            android:text="健康提示："
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smail_text_size" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="@dimen/margin_top"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="?line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/bubidaikouzhao"
+                    android:gravity="center"
+                    android:text="不必戴口罩"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/smail_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@drawable/bubidaikouzhao"
+                    android:gravity="center"
+                    android:text="不必戴口罩"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/smail_text_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/bubidaikouzhao"
+                    android:gravity="center"
+                    android:text="不必戴口罩"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/smail_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawableLeft="@drawable/bubidaikouzhao"
+                    android:gravity="center"
+                    android:text="不必戴口罩"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/smail_text_size" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

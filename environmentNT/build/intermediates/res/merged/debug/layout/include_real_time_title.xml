@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TopBarStyle" >
+
+    <RelativeLayout
+        android:id="@+id/add_station"
+        style="@style/TopBarViewStyle"
+        android:layout_width="@dimen/add_station_width"
+        android:layout_height="@dimen/add_station_height"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_station" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/add_station"
+        android:background="@drawable/p_line"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/line" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/top_qiehuan"
+        android:background="@drawable/p_line"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/top_share"
+        style="@style/TopBarViewStyle"
+        android:layout_width="40dp"
+        android:layout_height="@dimen/add_station_height"
+        android:layout_toLeftOf="@+id/top_refresh"
+        android:gravity="center"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/top_share" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/top_share"
+        android:background="@drawable/p_line" />
+
+    <RelativeLayout
+        android:id="@+id/top_refresh"
+        style="@style/TopBarViewStyle"
+        android:layout_width="49dp"
+        android:layout_height="@dimen/add_station_height"
+        android:layout_alignParentRight="true" >
+
+        <com.sinoyd.environmentNT.view.RefreshButton
+            android:id="@+id/top_refresh_btn"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/top_refresh" />
+    </RelativeLayout>
+
+</RelativeLayout>

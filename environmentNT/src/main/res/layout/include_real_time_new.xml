@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include
+            android:id="@+id/intop"
+            layout="@layout/include_real_time_top" />
+
+        <!--<ImageView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="0dip"-->
+        <!--android:layout_above="@+id/pullect_number_layout"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:background="#FBFEFF"-->
+        <!--android:visibility="gone" />-->
+
+        <!--天气-->
+
+        <com.sinoyd.environmentNT.hometouchview.MyRelativeLayout
+            android:id="@+id/weather_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="20dip"
+            android:layout_below="@+id/intop"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/city_name"
+                android:layout_width="73dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/city_name_bg"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_toRightOf="@+id/city_name"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/wendu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/wendu"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/fengxiang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:drawableLeft="@drawable/fengyang"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fengxiang_size" />
+
+                <TextView
+                    android:id="@+id/shidu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </com.sinoyd.environmentNT.hometouchview.MyRelativeLayout>
+
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/tuiboa"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/weather_layout">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/shuju" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="IAQI"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="9" />
+        </LinearLayout>
+
+        <!--树状图-->
+        <RelativeLayout
+            android:id="@+id/pullect_number_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tuiboa"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:minHeight="@dimen/realtimenew_pullect_number_minheight">
+
+            <com.sinoyd.environmentNT.hometouchview.MyGridView
+                android:id="@+id/gvIndexData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:columnWidth="130dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center|bottom"
+                android:numColumns="6"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="2dp" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_above="@+id/health_layout"
+            android:background="#FBFEFF"
+            android:visibility="gone" />
+
+        <com.sinoyd.environmentNT.hometouchview.MyRelativeLayout
+            android:id="@+id/health_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pullect_number_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/tvTip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/health_right_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/health_padding_bottom"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="@dimen/health_padding"
+                    android:text="@string/health_tip"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/tvHealtip"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/healthy_tip_bg"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_vertical"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:paddingBottom="@dimen/health_padding_bottom"
+                    android:paddingTop="@dimen/health_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/splitline"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_below="@id/tvTip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:background="?line"
+                android:visibility="gone" />
+
+            <com.sinoyd.environmentNT.hometouchview.MyGridView
+                android:id="@+id/gvHealthTips"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/splitline"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/gvHeal_marginLeft"
+                android:layout_marginTop="@dimen/gvheal_marginTop"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:numColumns="2"
+                android:scrollbars="none"
+                android:verticalSpacing="15dp" />
+
+            <!--
+            <LinearLayout
+                android:id="@+id/viewTip"
+                android:layout_width="270dp"
+                android:layout_height="@dimen/heal_view_height"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/heal_tip_marginTop"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:src="@drawable/jiantou" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tip_bg"
+                    android:gravity="center"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/tvHealtip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center|left"
+                        android:lineSpacingExtra="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+            -->
+        </com.sinoyd.environmentNT.hometouchview.MyRelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_above="@+id/weather_layout"
+            android:background="#FBFEFF"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

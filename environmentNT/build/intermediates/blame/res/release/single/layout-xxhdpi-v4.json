@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/release/layout-xxhdpi-v4/activity_login.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout-xxhdpi/activity_login.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/release/layout-xxhdpi-v4/popup_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout-xxhdpi/popup_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/release/layout-xxhdpi-v4/marker_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout-xxhdpi/marker_layout.xml"
+    }
+]

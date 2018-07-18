@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/density_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/list_space"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/DensityItemTextStyle"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:text="指标"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/type"
+        style="@style/DensityItemTextStyle"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:text="均值类型" />
+
+    <TextView
+        android:id="@+id/value"
+        style="@style/DensityItemTextStyle"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:text="浓度" />
+
+    <TextView
+        android:id="@+id/density"
+        style="@style/DensityItemTextStyle"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:text="浓度" />
+
+</LinearLayout>

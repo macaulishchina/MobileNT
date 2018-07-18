@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/density_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="35dp"
+    android:background="@color/transparentdarkblack"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/portName"
+        style="@style/DensityItemTextStyle"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="点位"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <com.sinoyd.environmentNT.view.InterceptScrollContainer
+        android:id="@+id/scroollContainter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/portName"
+        android:focusable="false" >
+
+        <com.sinoyd.environmentNT.view.MyHScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/viewChild"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:gravity="center"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </com.sinoyd.environmentNT.view.MyHScrollView>
+    </com.sinoyd.environmentNT.view.InterceptScrollContainer>
+
+</RelativeLayout>

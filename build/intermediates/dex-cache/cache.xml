@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.4/dd9eeb557650c4ad7394df23f0f5cf27a7cfc697/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4_7c745f2a0e2729d2a296359a40c6b68ee1450433.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/libs/xcl-charts.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="187292e25b7a429b2d1fd1f8ed2d3482138718c6">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/xcl-charts_27e3f15b46847e061e68d18590aec1863d556d3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/libs/httpmime-4.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d34b163e52a9727101aced60775d51c5085390a1">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/httpmime-4.1.1_173aa47ea690b8f252bcb8bccf467a01597ff548.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.21/88bfff5aa470143a83b0bc5ec00c0be8cabd7cad/kotlin-stdlib-jdk7-1.2.21.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88bfff5aa470143a83b0bc5ec00c0be8cabd7cad">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/kotlin-stdlib-jdk7-1.2.21_3e2e407ed0a60fadca7751aaf268c6185e43fe09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_21fbf3397f53f105a55e7705155b5f191a945098.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/libs/BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7e801de076fb6a1603196ee7cf5b1f02d1af6420">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/BaiduLBS_Android_8f81eda85fc920448c113ef31d821464243f6c72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/libs/volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/volley_1326683fa7aa3a0259d3f62098fbe87626fa29ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="919f0dfe192fb4e063e7dacadee7f8bb9a2672a9">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/annotations-13.0_4c832e3c01b909779301e4ae2f1d33d82e13c223.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_263310e2159e7d1f688049df19fd47821c773eb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/libs/gson-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/gson-2.3.1_c0c6b48d39a08e915f30eda1b43808886a99f790.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-common/0.9.1/94848205587db2dcb3ad37420531a106b2f52385/anko-common-0.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="94848205587db2dcb3ad37420531a106b2f52385">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/anko-common-0.9.1_170f13d6358a16d0c19fab1a4332a9b6842a8cf0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.4.0_05062c87116422018a19d35c5ab350fb9a790c10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/support-compat/25.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.4.0_d6090b0f13abc1351256fc57ce83401af69e92cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/libs/GetuiSDK2.12.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5d3ed8e5054686abdcf2c6f24fe4ccc9eba99991">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/GetuiSDK2.12.3.0_e547d005919309cf71c9134c69e0e7a523a03651.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.2/5d4eb08a326bdbd7fbbddc769666898c9936b282/MPAndroidChart-v3.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5d4eb08a326bdbd7fbbddc769666898c9936b282">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/MPAndroidChart-v3.0.2_047c8115ca562b5d0f7dec2d25c6deb118e794c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.4.0_27982bd2e3f7841e4eb139d21688e60b7fd6968a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/libs/achartengine-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/achartengine-1.1.0_22538cb9b20fb52b26e855801de7753ec08e48fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_ae2118dcef6e6472eb21e826ff0d42a00eeebdd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk15/0.9.1/cd75e456277ed865a5ab936e011e8df6cc935c0d/anko-sdk15-0.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd75e456277ed865a5ab936e011e8df6cc935c0d">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/anko-sdk15-0.9.1_7b97327498dab8be1b1f630b264c616fa8ae0192.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/MobileNT/environmentTaiCangPulePaintDemo/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9f424f3b22f1227ff3dc098880cfe1f2a65293c5">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/MobileNT-environmentTaiCangPulePaintDemo-unspecified_63f65df760ec36f18c5960b1ccacd6eaf4679979.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/support-fragment/25.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.4.0_02cd16cac886888ff6d21320c479c6e5099ed666.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/libs/umeng_sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7cf89a75bd6af2056d4af4e6122cc3ccf6602878">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/umeng_sdk_dfe167428b5e5b06c1ca01168d58bcb0ff8c6054.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.1_6d462f62b5e06b8da59887c9854a9fe4505879f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/support-v4/25.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.4.0_d4a95244c8d8956de3d0a2ef65582eadfb197c7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/libs/xUtils-2.6.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/xUtils-2.6.14_0aa0b948bc4f4faa9c67f692daafc04e090b9543.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.wang.avi/library/2.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e699699fae0092703de1d02b217f43803d0f7e0a">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.wang.avi-library-2.1.3_995656825eaf52a79f960a9bdf93f49db4a4dadd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_098a198d7ff1d0ab2bf7b1850c2730f3c9d377bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/25.4.0/f6a2fc748ae3769633dea050563e1613e93c135e/support-annotations-25.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/support-annotations-25.4.0_4480f8be070a7778472e0bfef1b61038b9ab968a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.21/d64187eb2d9d1521be3421aa8c6774a8625cdde8/kotlin-stdlib-1.2.21.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d64187eb2d9d1521be3421aa8c6774a8625cdde8">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/kotlin-stdlib-1.2.21_214a67b8a2e9e10579892f00a397da75d684373b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/libs/sinoydcontrol.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1609b9b07e25fea4c5326543afbc1939459fbf2d">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/sinoydcontrol_ef9e088466308b8aed925bd392f51399a6d3b608.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Shared/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.1/constraint-layout-solver-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.1_665a1e65f80834c344f2c262d6764e0d7f10e007.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.4.0_b170423928393071ba3ab4b350daaae25bdd017b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.github.ForgetAll/LoadingDialog/v1.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="85952a305936a545ca3f442065c544174960fff1">
+        <dex dex="/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/pre-dexed/debug/com.github.ForgetAll-LoadingDialog-v1.0.4_845e506eda022e7459d0a4e5306753e1bdc4b844.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background">#E6E6E6</color>
+    <color name="label_color">#ffffff</color>
+    <color name="text_color">#242424</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="fail_color">#FF7F50</color>
+    <color name="success_color">#98F898</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="black_tr">#10000000</color>
+    <color name="youliang_line">#30FFFFFF</color>
+    <!-- <color name="top_black">#000000</color> -->
+    <color name="dark_brown">#D6C7A8</color>
+    <color name="item_dark">#D1D1D1</color>
+    <color name="light_brown">#F2EEE4</color>
+    <color name="background_panel">#202B37</color>
+    <color name="background_list">#F3E9D9</color>
+    <color name="text_blue">#177491</color>
+    <color name="text_dark">#454545</color>
+    <color name="green">#00ffff</color>
+    <color name="blue">#0000FF</color>
+    <color name="red">#ff0000</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="sys_title_color">#3C4A57</color>
+    <color name="btn_color">#3C4A57</color>
+    <color name="dash_board_color">#202b37</color>
+    <color name="wmp_bg_color">#A2D1FF</color>
+    <color name="new_label_color">#353535</color>
+    <color name="system_title_color">#1E1F1F</color>
+    <color name="gray_80">#333333</color>
+    <color name="gray_60">#666666</color>
+    <color name="line_color">#ABABAB</color>
+    <color name="main_body_color">#F3F3F3</color>
+    <color name="text_green">#3F8FD6</color>
+    <color name="radio_text_select">#0df41e</color>
+    <color name="list_item_bg">#bef9ff</color>
+    <color name="list_item_bg_">#a6f3fb</color>
+    <color name="rect_blue">#00ffff</color>
+    <color name="rect_green">#00ff00</color>
+    <color name="rect_orange">#ff7900</color>
+    <color name="rect_red">#ff0000</color>
+    <color name="rect_yellow">#ffff00</color>
+    <color name="q_you">#ff03e000</color>
+    <color name="q_liang">#ffffff00</color>
+    <color name="q_qingdu">#ffff6b04</color>
+    <color name="q_zhongdu">#fffb0200</color>
+    <color name="q_zhongdu2">#ff86013a</color>
+    <color name="q_yanzhong">#ff670712</color>
+    <color name="air_air">#D5EEF9</color>
+    <color name="air_airquality">#14E11D</color>
+    <color name="transparentblack">#20000000</color>
+    <color name="transparentdarkblack">#30000000</color>
+    <color name="headtitle_background">#63B8FF</color>
+    <color name="titlelbue">#0f82ff</color>
+
+    <color name="yiji">#0FCD05</color>
+    <color name="erji">#ffff00</color>
+    <color name="sanji">#FE7E00</color>
+    <color name="siji">#FE1D00</color>
+    <color name="wuji">#7E0923</color>
+
+    <color name="item">#3d413a</color>
+    <color name="hui">#4a4e4a</color>
+
+
+</resources>

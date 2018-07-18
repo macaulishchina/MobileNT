@@ -1,0 +1,578 @@
+[
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_online.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_online.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/spinner_text.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/spinner_text.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/dialog_water_explain.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/dialog_water_explain.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_ommpinfo.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_ommpinfo.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/include_real_time_new.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/include_real_time_new.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/tv_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/tv_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_mobile.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_mobile.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_trend.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_trend.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/download_layuot.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/download_layuot.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/main_tree_child.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/main_tree_child.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_super2jiguang.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_super2jiguang.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/child_itemlayout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/child_itemlayout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/include_realtime.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/include_realtime.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_super2info.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_super2info.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/include_real_time_title.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/include_real_time_title.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/include_online_title.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/include_online_title.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_load.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_load.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/item_update_face.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/item_update_face.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/layout_date_select.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/layout_date_select.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_help.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_help.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_super.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_super.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_realdensity.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_realdensity.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/item_gis_station.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/item_gis_station.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/density_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/density_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/listview_item_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/listview_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_moremenu.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_moremenu.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/view_realtimewater.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/view_realtimewater.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_update_face.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_update_face.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/dialog_portinfo.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/dialog_portinfo.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/include_trend_title.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/include_trend_title.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_web.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_web.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/dialog_factorinfo.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/dialog_factorinfo.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_changepassword.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_changepassword.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/weekreport_data_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/weekreport_data_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_realtimeparentwater.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_realtimeparentwater.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/dialog_qa.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/dialog_qa.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/water_pm_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/water_pm_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/bottombar_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/bottombar_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_super2city.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_super2city.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/lvsuper_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/lvsuper_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/item_gis_listview.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/item_gis_listview.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/alarm_data_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/alarm_data_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/dialog_check_version.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/dialog_check_version.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/online_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/online_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_gis.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_gis.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/loading_dialog_view.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.github.ForgetAll/LoadingDialog/v1.0.4/res/layout/loading_dialog_view.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/list_report_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/list_report_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_airalarminfo.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_airalarminfo.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/item_ommp_listview.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/item_ommp_listview.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/alarm_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/alarm_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/inclue_main_bar.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/inclue_main_bar.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_realtimewater.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_realtimewater.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/air_bottombar_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/air_bottombar_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/addposition_dialog.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/addposition_dialog.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_waterweekreport.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_waterweekreport.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/gis_popup_view_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/gis_popup_view_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/gv_tree_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/gv_tree_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/include_real_time_top.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/include_real_time_top.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/new_aqi_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/new_aqi_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/item_colum_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/item_colum_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/simple_spinner_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/simple_spinner_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/monitor_data_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/monitor_data_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/include_real_time_down.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/include_real_time_down.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/pm_item_content.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/pm_item_content.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_water_week.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_water_week.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/pm_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/pm_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/change_sytem_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/change_sytem_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/more_bottombar_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/more_bottombar_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/getui_notification.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/getui_notification.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/rt_cursor_bar.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/rt_cursor_bar.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_water_monitor_data.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_water_monitor_data.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_monitor_data.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_monitor_data.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_forecast.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_forecast.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_new_aqi.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_new_aqi.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/inclue_logo_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/inclue_logo_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/item_gis_header.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/item_gis_header.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/dialog_level_explain.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/dialog_level_explain.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_position_manager.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_position_manager.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/monitor_data_item2.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/monitor_data_item2.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/cat_itemlayout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/cat_itemlayout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_alarminfo.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_alarminfo.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/include_water_title.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/include_water_title.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/include_online_viewpager.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/include_online_viewpager.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_youliangcondition.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_youliangcondition.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/pm_item_title.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/pm_item_title.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/main_tree_group.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/main_tree_group.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/select_position_gv_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/select_position_gv_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/date_selelct_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/date_selelct_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/item_yz_common_selector.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/item_yz_common_selector.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/include_water_week_title.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/include_water_week_title.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/item_more_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/item_more_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/healthtip_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/healthtip_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/dialog_system_explain.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/dialog_system_explain.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/item_vscrollview.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/item_vscrollview.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_air_monitor_data.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_air_monitor_data.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/marker_gis_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/marker_gis_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_aqi.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_aqi.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_monitor.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_monitor.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_pm.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_pm.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/yz_common_selector.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/yz_common_selector.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/week_report.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/week_report.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/dialog_progress_layout.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/dialog_progress_layout.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/dialog_about.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/dialog_about.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/index_label_item.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/index_label_item.xml"
+    },
+    {
+        "merged": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/build/intermediates/res/merged/debug/layout/activity_more.xml",
+        "source": "/Users/Sinoyd 1 2/Desktop/Android/android studio/南通环境质量/MobileNT/environmentNT/src/main/res/layout/activity_more.xml"
+    }
+]

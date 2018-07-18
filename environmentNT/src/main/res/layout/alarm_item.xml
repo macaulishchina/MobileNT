@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/density_minHeight"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/DensityItemTextStyle"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="点位" />
+
+    <TextView
+        android:id="@+id/alarmtime"
+        style="@style/DensityItemTextStyle"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="报警时间" />
+
+    <TextView
+        android:id="@+id/alarmcontent"
+        style="@style/DensityItemTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="报警内容" />
+    
+    <TextView
+        android:id="@+id/handleresult"
+        style="@style/DensityItemTextStyle"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="处理结果" />
+</LinearLayout>

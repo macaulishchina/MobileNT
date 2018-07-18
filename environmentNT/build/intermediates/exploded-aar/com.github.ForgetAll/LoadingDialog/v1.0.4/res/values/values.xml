@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="speed">
+        <enum name="speedOne" value="1"/>
+        <enum name="speedTwo" value="2"/>
+    </attr>
+    <attr format="color" name="strokeColor"/>
+    <declare-styleable name="RightDiaView"><attr name="strokeColor"/><attr name="speed"/></declare-styleable>
+    <declare-styleable name="WrongDiaView"><attr name="strokeColor"/><attr name="speed"/></declare-styleable>
+    <string name="app_name">LoadingDialog</string>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

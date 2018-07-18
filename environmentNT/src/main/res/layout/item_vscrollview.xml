@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+       android:cacheColorHint="@color/transparent"
+                    android:divider="@color/transparent"
+                    android:fadeScrollbars="true"
+                    android:fadingEdge="none"
+                    android:listSelector="@android:color/transparent"
+                    android:overScrollMode="never"
+     >
+
+    <TextView
+        android:id="@+id/tv_headname"
+        style="@style/TVStyle_OMMP"
+        android:layout_width="78dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center" />
+    
+    
+</LinearLayout>

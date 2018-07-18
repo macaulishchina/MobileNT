@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sinoyd.environmentNT.view.MenuGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ep="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/main_tab_height"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/tab_bg"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="2dp">
+
+    <com.sinoyd.environmentNT.view.MenuButton
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        ep:icon="@drawable/tab_longdu"
+        ep:iconHeight="@dimen/menu_iconheight"
+        ep:iconWidth="@dimen/menu_iconwidth"
+        ep:text="@string/longdu"
+        ep:textSize="@dimen/menubutton_size"></com.sinoyd.environmentNT.view.MenuButton>
+
+    <com.sinoyd.environmentNT.view.MenuButton
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        ep:icon="@drawable/tab_gis"
+        ep:iconHeight="@dimen/menu_iconheight"
+        ep:iconWidth="@dimen/menu_iconwidth"
+        ep:text="@string/gis"
+        ep:textSize="@dimen/menubutton_size"></com.sinoyd.environmentNT.view.MenuButton>
+
+    <com.sinoyd.environmentNT.view.MenuButton
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        ep:icon="@drawable/tab_lishi"
+        ep:iconHeight="@dimen/menu_iconheight"
+        ep:iconWidth="@dimen/menu_iconwidth"
+        ep:text="@string/lishi"
+        ep:textSize="@dimen/menubutton_size"></com.sinoyd.environmentNT.view.MenuButton>
+
+    <com.sinoyd.environmentNT.view.MenuButton
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        ep:icon="@drawable/tab_alarm"
+        ep:iconHeight="@dimen/menu_iconheight"
+        ep:iconWidth="@dimen/menu_iconwidth"
+        ep:text="@string/baojing"
+        ep:textSize="@dimen/menubutton_size"></com.sinoyd.environmentNT.view.MenuButton>
+
+    <com.sinoyd.environmentNT.view.MenuButton
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        ep:icon="@drawable/tab_gis"
+        ep:iconHeight="@dimen/menu_iconheight"
+        ep:iconWidth="@dimen/menu_iconwidth"
+        ep:text="@string/gis"
+        ep:textSize="@dimen/menubutton_size"></com.sinoyd.environmentNT.view.MenuButton>
+
+    <com.sinoyd.environmentNT.view.MenuButton
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        ep:icon="@drawable/tab_gis"
+        ep:iconHeight="@dimen/menu_iconheight"
+        ep:iconWidth="@dimen/menu_iconwidth"
+        ep:text="@string/gis"
+        ep:textSize="@dimen/menubutton_size"></com.sinoyd.environmentNT.view.MenuButton>
+
+    <!--<com.sinoyd.environmentTaiCang.view.MenuButton-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical"-->
+        <!--ep:icon="@drawable/tab_gengduo"-->
+        <!--ep:iconHeight="@dimen/menu_iconheight"-->
+        <!--ep:iconWidth="@dimen/menu_iconwidth"-->
+        <!--ep:text="@string/gengduo"-->
+        <!--ep:textSize="@dimen/menubutton_size"></com.sinoyd.environmentTaiCang.view.MenuButton>-->
+
+    <!--<com.sinoyd.environmentTaiCang.view.MenuButton-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="match_parent"-->
+
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical"-->
+        <!--ep:icon="@drawable/tab_gengduo"-->
+        <!--ep:iconHeight="@dimen/menu_iconheight"-->
+        <!--ep:iconWidth="@dimen/menu_iconwidth"-->
+        <!--ep:text="@string/gengduo"-->
+        <!--ep:textSize="@dimen/menubutton_size"></com.sinoyd.environmentTaiCang.view.MenuButton>-->
+</com.sinoyd.environmentNT.view.MenuGroup>

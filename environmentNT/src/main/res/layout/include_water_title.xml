@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TopBarStyle">
+
+    <RelativeLayout
+        android:id="@+id/add_station"
+        style="@style/TopBarViewStyle"
+        android:layout_width="@dimen/add_station_width"
+        android:layout_height="@dimen/add_station_height"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_station" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/add_station"
+        android:background="@drawable/p_line"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/change_station_icon"
+        style="@style/TopBarViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/add_station_height"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/line">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/change_site" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"
+        android:layout_toRightOf="@+id/change_station_icon" />
+
+    <LinearLayout
+        android:id="@+id/top_qiehuan"
+        style="@style/TopBarViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/add_station_height"
+        android:layout_marginRight="10dp"
+
+        android:layout_toLeftOf="@+id/top_refresh"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/change_system"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/change_station_icon"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top_share"
+        style="@style/TopBarViewStyle"
+        android:layout_width="60dp"
+        android:layout_height="@dimen/add_station_height"
+        android:layout_toLeftOf="@+id/top_refresh"
+
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/top_share" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/top_share"
+        android:background="@drawable/p_line"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/top_refresh"
+        style="@style/TopBarViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/add_station_height"
+        android:layout_toLeftOf="@+id/top_more">
+
+        <com.sinoyd.environmentNT.view.RefreshButton
+            android:id="@+id/top_refresh_btn"
+            android:layout_width="20dp"
+            android:layout_height="@dimen/add_station_height"
+            android:layout_centerInParent="true"
+            android:src="@drawable/top_refresh" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/top_more"
+        style="@style/TopBarViewStyle"
+        android:layout_width="60dp"
+        android:layout_height="@dimen/add_station_height"
+
+        android:layout_alignParentRight="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="24dp"
+            android:src="@drawable/more" />
+    </LinearLayout>
+</RelativeLayout>

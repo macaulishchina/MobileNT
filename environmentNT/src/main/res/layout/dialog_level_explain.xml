@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#e0000000" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="空气质量指数等级说明" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/setting_line" android:orientation="vertical" android:background="?line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/relativeLayout1" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="#e0000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="#ff98fb98" android:id="@+id/tv1" android:layout_width="150.0px" android:layout_height="wrap_content" android:text="优" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff98fb98" android:id="@+id/tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数 0~50" android:layout_below="@id/tv1" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff98fb98" android:id="@+id/tv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数级别 ：一级" android:layout_below="@id/tv2" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="对健康影响情况 ：空气质量令人满意，基本无空气污染" android:layout_below="@id/tv3" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="建议采取的措施 ：各类人群可正常活动" android:layout_below="@id/tv4" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="#ffeee685" android:id="@+id/tv1" android:layout_width="150.0px" android:layout_height="wrap_content" android:text="良" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffeee685" android:id="@+id/tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数 51~100" android:layout_below="@id/tv1" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffeee685" android:id="@+id/tv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数级别 ：二级" android:layout_below="@id/tv2" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="对健康影响情况 ：空气质量可接受，但某些污染物可能对极少数异常敏感人群健康有较弱影响" android:layout_below="@id/tv3" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="建议采取的措施 ：极少数异常敏感人群应减少户外活动" android:layout_below="@id/tv4" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="#ffee8262" android:id="@+id/tv1" android:layout_width="150.0px" android:layout_height="wrap_content" android:text="轻度污染" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffee8262" android:id="@+id/tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数 101~150" android:layout_below="@id/tv1" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffee8262" android:id="@+id/tv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数级别 ：三级" android:layout_below="@id/tv2" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="对健康影响情况 ：易感人群症状有轻度加剧，健康人群出现刺激症状" android:layout_below="@id/tv3" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="建议采取的措施 ：儿童、老年人及心脏病、呼吸系统疾病患者应减少长时间、高强度的户外锻炼" android:layout_below="@id/tv4" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="#ffcd3333" android:id="@+id/tv1" android:layout_width="150.0px" android:layout_height="wrap_content" android:text="中度污染" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffcd3333" android:id="@+id/tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数 151~200" android:layout_below="@id/tv1" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffcd3333" android:id="@+id/tv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数级别 ：四级" android:layout_below="@id/tv2" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="对健康影响情况 ：进一步加剧易感人群症状，可能对健康人群心脏、呼吸系统有影响" android:layout_below="@id/tv3" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="建议采取的措施 ：儿童、老年人及心脏病、呼吸系统疾病患者避免长时间、高强度的户外锻炼，一般人群适量减少户外运动" android:layout_below="@id/tv4" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="#ff8b4789" android:id="@+id/tv1" android:layout_width="150.0px" android:layout_height="wrap_content" android:text="重度污染" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff8b4789" android:id="@+id/tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数 201~300" android:layout_below="@id/tv1" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff8b4789" android:id="@+id/tv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数级别 ：五级" android:layout_below="@id/tv2" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="对健康影响情况 ：心脏病和肺病患者症状显著加剧，运动耐受力降低，健康人群普遍出现症状" android:layout_below="@id/tv3" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="建议采取的措施 ：儿童、老年人及心脏病、肺病患者应停留在室内，停止户外运动，一般人群减少户外运动" android:layout_below="@id/tv4" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="#ff8b0000" android:id="@+id/tv1" android:layout_width="150.0px" android:layout_height="wrap_content" android:text="严重污染" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff8b0000" android:id="@+id/tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数  >300" android:layout_below="@id/tv1" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff8b0000" android:id="@+id/tv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="空气质量指数级别 ：六级" android:layout_below="@id/tv2" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="对健康影响情况 ：健康人群运动耐受力降低，有明显强烈症状，提前出现某些疾病" android:layout_below="@id/tv3" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffebebeb" android:id="@+id/tv5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="建议采取的措施 ：儿童、老年人和病人应停留在室内，避免体力消耗，一般人群避免户外活动" android:layout_below="@id/tv4" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

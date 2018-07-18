@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ForgetAll:LoadingDialog-v1.0.4">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/environmentNT/build/intermediates/exploded-aar/com.github.ForgetAll/LoadingDialog/v1.0.4/res" />
+      <root url="jar://$PROJECT_DIR$/environmentNT/build/intermediates/exploded-aar/com.github.ForgetAll/LoadingDialog/v1.0.4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 一级字大小 -->
+    <dimen name="fontonelevel">18sp</dimen>
+    <!-- 二级字大小 -->
+    <dimen name="fonttwolevel">14sp</dimen>
+    <!-- 三级字大小 -->
+    <dimen name="fontthreelevel">12sp</dimen>
+    <!-- 四级字大小 -->
+    <dimen name="fontfourlevel">10sp</dimen>
+</resources>

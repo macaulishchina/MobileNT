@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="#FFF"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/dialog_bg"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:src="?dialog_bg" />-->
+    <RelativeLayout
+        android:id="@+id/lllllll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txt_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+
+            android:text="V1.1"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lllllll"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="南通环境质量"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/check_msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dialog_about_title_margin_top"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="数据来源：南通市环境监测中心 官方发布"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+</RelativeLayout>

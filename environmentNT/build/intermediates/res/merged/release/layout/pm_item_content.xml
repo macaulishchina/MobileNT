@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sinoyd.environmentNT.view.ScrollGridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gvPm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:gravity="center_horizontal"
+    android:numColumns="4"
+    android:verticalSpacing="20dp" >
+
+</com.sinoyd.environmentNT.view.ScrollGridView>

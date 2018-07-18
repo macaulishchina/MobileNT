@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ep="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainRLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/page_bg" >
+
+    <com.sinoyd.environmentNT.view.MyScrollLayout
+        android:id="@+id/ScrollLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+
+    </com.sinoyd.environmentNT.view.MyScrollLayout>
+
+    <com.sinoyd.environmentNT.view.ArrowView
+        android:id="@+id/arrowView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="24dp"
+        ep:arrowNumber="3" >
+    </com.sinoyd.environmentNT.view.ArrowView>
+
+</RelativeLayout>

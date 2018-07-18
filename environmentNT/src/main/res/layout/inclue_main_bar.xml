@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TopBarStyle" >
+
+    <TextView
+        android:id="@+id/title_"
+        style="@style/Title"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="16dp"
+        android:text="昆山市" />
+
+    <RelativeLayout
+        android:id="@+id/top_refresh"
+        style="@style/TopBarViewStyle"
+        android:layout_width="40dp"
+        android:layout_height="@dimen/add_station_height"
+        android:layout_alignParentRight="true" >
+
+        <com.sinoyd.environmentNT.view.RefreshButton
+            android:id="@+id/top_refresh_btn"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/top_refresh" >
+        </com.sinoyd.environmentNT.view.RefreshButton>
+    </RelativeLayout>
+
+</RelativeLayout>

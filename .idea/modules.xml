@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MobileNT.iml" filepath="$PROJECT_DIR$/MobileNT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/environmentNT/environmentNT.iml" filepath="$PROJECT_DIR$/environmentNT/environmentNT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/environmentTaiCangPulePaintDemo/environmentTaiCangPulePaintDemo.iml" filepath="$PROJECT_DIR$/environmentTaiCangPulePaintDemo/environmentTaiCangPulePaintDemo.iml" />
+    </modules>
+  </component>
+</project>

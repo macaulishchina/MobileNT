@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <public id="0x7f010001" name="page_bg" type="attr" />
+    <public id="0x7f010002" name="more_item_bg" type="attr" />
+    <public id="0x7f010003" name="aqi_select_btn" type="attr" />
+    <public id="0x7f010004" name="line" type="attr" />
+    <public id="0x7f010005" name="dialog_bg" type="attr" />
+    <public id="0x7f010006" name="dialog_btn" type="attr" />
+    <public id="0x7f010007" name="first_pullect_value_bg" type="attr" />
+    <public id="0x7f010008" name="city_info_line" type="attr" />
+    <public id="0x7f010009" name="health_prompt_bg" type="attr" />
+    <public id="0x7f010010" name="aqi_chart_bg" type="attr" />
+    <public id="0x7f010011" name="gis_header_bg" type="attr" />
+    <public id="0x7f010012" name="time" type="attr" />
+
+</resources>

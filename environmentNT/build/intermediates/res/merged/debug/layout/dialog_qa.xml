@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="#e0000000"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="center"
+            android:text="科普知识"
+            android:textColor="@color/white"
+            android:textSize="24.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setting_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="?line"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#e0000000"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20.0dip" >
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1．什么是AQI？"
+                    android:textColor="#ff98fb98"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:text="AQI，即空气质量指数（Air Quality Index），是定量描述空气质量状况的无量纲指数。"
+                    android:textColor="#ffebebeb"
+                    android:textSize="14.0sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20.0dip" >
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2．AQI是怎样进行计算与评价的？"
+                    android:textColor="#ff98fb98"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tv_explain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:text="AQI计算与评价的过程大致可分为三个步骤：第一步是对照各项污染物的分级浓度限值，以细颗粒物（PM2.5）、可吸入颗粒物（PM10）、二氧化硫（SO2）、二氧化氮（NO2）、臭氧（O3）、一氧化碳（CO）等各项污染物的实测小时浓度值分别计算得出空气质量分指数（Individual Air Quality Index，简称IAQI）；第二步是从各项污染物的IAQI中选择最大值确定为AQI，当AQI大于50时将IAQI最大的污染物确定为首要污染物；第三步是对照AQI分级标准，确定空气质量级别、类别及表示颜色、健康影响与建议采取的措施。
+					\n\n\t\t简言之，AQI就是各项污染物的空气质量分指数（IAQI）中的最大值，当AQI大于50时对应的污染物即为首要污染物。"
+                    android:textColor="#ffebebeb"
+                    android:textSize="14.0sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20.0dip" >
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3．如何看懂AQI？"
+                    android:textColor="#ff98fb98"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:text="AQI的数值越大、级别和类别越高、表征颜色越深，说明空气污染状况越严重，对人体的健康危害也就越大。市民看AQI时，不需要记住AQI的具体数值和级别，只需要注意优（绿色）、良（黄色）、轻度污染（橙色）、中度污染（红色）、重度污染（紫色）、严重污染（褐红色）等六种评价类别和表征颜色。当类别为优或良、颜色为绿色或黄色时，一般人群都可以正常活动；当类别为轻度污染以上，颜色为橙色、红色、紫色或褐红色时，各类人群就需要关注建议采取的措施，在安排自己的生活与出行时作为参考。"
+                    android:textColor="#ffebebeb"
+                    android:textSize="14.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

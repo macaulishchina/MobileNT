@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">南通环境质量</string>
+    <string name="shikuang">实况</string>
+    <string name="longdu">浓度</string>
+    <string name="jiance">监测数据</string>
+    <string name="lishi">历史</string>
+    <string name="yubao">预报</string>
+    <string name="gis">GIS</string>
+    <string name="gengduo">更多</string>
+    <string name="baojing">报警信息</string>
+    <string name="position_manager">位置管理</string>
+    <string name="add_check_position">添加监测站点</string>
+    <string name="health_tip">健康提示</string>
+    <string name="ug_unit">\u0020\u0020μg/m3</string>
+
+    <string-array name="heal_tips">
+        <item>\u0020\u0020\u0020\u0020空气质量令人满意，基本无空气污染</item>
+        <item>\u0020\u0020\u0020\u0020空气质量可接受，但某些污染物可能对极少数异常敏感人群健康有较弱影响</item>
+        <item>\u0020\u0020\u0020\u0020易感人群症状有轻度加剧，健康人群出现刺激症状</item>
+        <item>\u0020\u0020\u0020\u0020进一步加剧易感人群症状，可能对健康人群心脏、呼吸系统有影响</item>
+        <item>\u0020\u0020\u0020\u0020心脏病和肺病患者症状显著加剧，运动耐受力降低，健康人群普遍出现症状</item>
+        <item>\u0020\u0020\u0020\u0020健康人群运动耐受力降低，有明显强烈症状，提前出现某些疾病</item>
+    </string-array>
+
+    <string name="cursor_scale">0.3</string>
+    <string name="cursor_scale_1">0.15</string>
+    <string name="aqi_label">AQI :</string>
+    <string name="pm25_title">24小时浓度值</string>
+    <string name="ph">PH值</string>
+    <string name="unit_pm">μg/m3</string>
+    <string name="unit_co">mg/m3</string>
+    <string name="label_desc">\u0020\u0020根据《地表水环境质量标准》(GB3838-2002),选择pH值、溶解度、高锰酸钾指数、氨氮、总磷、总氮六项指标,对全市16个水质自动站%1$s至站%2$s监测的水质状态进行综合评价,结果见下表。</string>
+    <string name="position_select">站点选择</string>
+    <string name="unit_day">单位：(天)</string>
+    <string name="you">优</string>
+    <string name="liang">良</string>
+    <string name="qingduwuran">轻度污染</string>
+    <string name="zhongduwuran">中度污染</string>
+    <string name="zhongdu2wuran">重度污染</string>
+    <string name="yanzhongwuran">严重污染</string>
+  <string name="index_label_bili">1.5</string>
+</resources>

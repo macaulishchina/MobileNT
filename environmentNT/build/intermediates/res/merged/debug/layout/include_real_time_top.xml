@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_pullect_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!--
+             <ImageView
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/logo_image" />
+        -->
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cursor_view_marginLeft"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/lvAQI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cursor_view_marginLeft"
+            android:layout_marginTop="8dp"
+            android:gravity="center|left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AQI指数"
+                android:textColor="@color/white"
+                android:textSize="@dimen/primaryName_textSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAQI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="88"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv2AQI"
+            android:layout_width="150dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/bg_aqi"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/aqi_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:text="空气质量  "
+                android:textColor="@color/white"
+                android:textSize="@dimen/smail_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/white"
+                android:textSize="@dimen/smail_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <com.sinoyd.environmentNT.view.ColourBarView
+            android:id="@+id/cursorView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/health_bg_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:id="@+id/logo"
+            android:layout_width="94dp"
+            android:layout_height="103dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pet_1"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/health_chind_bg_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+          >
+
+                <LinearLayout
+                    android:id="@+id/top_first_pullect_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="首要污染物"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/primary_textSize" />
+
+                    <TextView
+                        android:id="@+id/tvPrimaryName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="--"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/primaryName_textSize" />
+
+                    <TextView
+                        android:id="@+id/tvLevel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/primary_textSize"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/top_first_pullect_layout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="浓度值"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/primary_textSize" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvPrimaryValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="--"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/primaryName_textSize" />
+
+                        <TextView
+                            android:id="@+id/tvUnit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+
+                            android:text="@string/ug_unit"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

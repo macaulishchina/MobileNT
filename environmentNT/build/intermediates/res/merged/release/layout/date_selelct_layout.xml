@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/start_date_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="起始时间"
+            android:textColor="@color/gray_80"
+            android:textSize="16dp" />
+
+        <DatePicker
+            android:id="@+id/start_date_picker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <View 
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+             android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:background="@color/gray_60"
+            />
+        <TextView
+            android:id="@+id/end_date_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="结束时间"
+            android:textColor="@color/gray_80"
+            android:textSize="16dp" />
+
+        <DatePicker
+            android:id="@+id/end_date_picker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="?dialog_btn"
+            android:gravity="center"
+            android:text="确定"
+            android:layout_marginLeft="5dp"
+            
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_marginRight="5dp"
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="?dialog_btn"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

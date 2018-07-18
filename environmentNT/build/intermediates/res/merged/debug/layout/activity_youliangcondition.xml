@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/top_bar_layout"
+        layout="@layout/include_water_week_title" />
+
+    <LinearLayout
+        android:id="@+id/date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <include layout="@layout/layout_date_select" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:text="总天数:"
+            android:textColor="@color/white"
+            android:textSize="@dimen/youliang_text_size" />
+
+        <TextView
+            android:id="@+id/youliangcondition_txt_daycounts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:textColor="@color/red"
+            android:textSize="@dimen/youliang_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天"
+            android:textColor="@color/white"
+            android:textSize="@dimen/youliang_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="优良天数:"
+            android:textColor="@color/white"
+            android:textSize="@dimen/youliang_text_size" />
+
+        <TextView
+            android:id="@+id/youliangcondition_txt_dayyouliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="@dimen/youliang_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天"
+            android:textColor="@color/white"
+            android:textSize="@dimen/youliang_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="22dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/youliangcondition_lin_pieview"
+            android:layout_width="268dp"
+            android:layout_height="170dp" >
+
+            <com.sinoyd.environmentNT.view.PieView
+                android:id="@+id/youliangcondition_budget"
+                android:layout_width="268dp"
+                android:layout_height="170dp" >
+            </com.sinoyd.environmentNT.view.PieView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="85dp"
+            android:layout_height="170dp"
+            android:layout_marginRight="7dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="24dp"
+                android:gravity="center_vertical|right"
+                android:text="@string/unit_day"
+                android:textColor="@color/white"
+                android:textSize="@dimen/smail_text_size" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="14dp"
+                android:layout_marginBottom="9dp"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/youliangcondition_txt_dayyou"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|right"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@color/q_you" />
+
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/you"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="14dp"
+                android:layout_marginBottom="9dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/youliangcondition_txt_dayliang"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|right"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@color/q_liang" />
+
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/liang"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="14dp"
+                android:layout_marginBottom="9dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/youliangcondition_txt_dayqingdu"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|right"
+                    android:text="0" 
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@color/q_qingdu" />
+
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/qingduwuran"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="14dp"
+                android:layout_marginBottom="9dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/youliangcondition_txt_dayzhongdu"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|right"
+                   android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@color/q_zhongdu" />
+
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/zhongduwuran"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="14dp"
+                android:layout_marginBottom="9dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/youliangcondition_txt_dayzhongdu2"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|right"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@color/q_zhongdu2" />
+
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/zhongdu2wuran"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="14dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/youliangcondition_txt_dayyanzhong"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|right"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@color/q_yanzhong" />
+
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/yanzhongwuran"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/youliang_mintext_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="255dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/youliangcondition_lin_stackbar"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp">
+
+            <com.sinoyd.environmentNT.view.StackBarChartView
+                android:id="@+id/youliangcondition_stackbar"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp" >
+            </com.sinoyd.environmentNT.view.StackBarChartView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" >
+
+            <RelativeLayout
+                android:layout_width="345dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@color/black_tr" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" >
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="14dp"
+                        android:background="@color/q_you" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical|left"
+                        android:text="@string/you"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/youliang_mintext_size" />
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@color/q_liang" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical|left"
+                        android:text="@string/liang"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/youliang_mintext_size" />
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@color/q_qingdu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical|left"
+                        android:text="@string/qingduwuran"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/youliang_mintext_size" />
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@color/q_zhongdu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical|left"
+                        android:text="@string/zhongduwuran"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/youliang_mintext_size" />
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@color/q_zhongdu2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical|left"
+                        android:text="@string/zhongdu2wuran"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/youliang_mintext_size" />
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@color/q_yanzhong" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical|left"
+                        android:text="@string/yanzhongwuran"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/youliang_mintext_size" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_bg"
+    tools:context="com.sinoyd.environmentNT.activity.Super2infoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/Super2_top_bar_layout"
+            layout="@layout/include_water_week_title"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/super2info_tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/time"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/super2_arrowLeft"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/arrows_left" />
+
+            <TextView
+                android:id="@+id/super2_Time"
+                style="@style/DensityItemTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="2013-12-08" />
+
+            <ImageView
+                android:id="@+id/super2_arrowRight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/arrows_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rl_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/super2_table_title"
+                layout="@layout/monitor_data_item2" />
+
+            <ListView
+                android:id="@+id/super2_densityValueList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@color/transparent"
+                android:listSelector="@android:color/transparent" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:indicatorName="LineSpinFadeLoaderIndicator" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

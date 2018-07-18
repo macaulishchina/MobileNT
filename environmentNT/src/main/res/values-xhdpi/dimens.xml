@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_left">15dp</dimen>
+    <dimen name="margin_right">15dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="corner_radius">9dip</dimen>
+    <dimen name="title_status_bar_height">48dip</dimen>
+    <dimen name="updatebar_height">82.0dip</dimen>
+    <dimen name="updatebar_content_height">80.0dip</dimen>
+    <dimen name="updatebar_padding">10.0dip</dimen>
+    <dimen name="updatebar_marg">3.0dip</dimen>
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+    <dimen name="bottom_tab_padding_up">5.0dip</dimen>
+    <dimen name="bottom_tab_font_size">10.0dip</dimen>
+    <dimen name="health_tip_panel_width">525dp</dimen>
+    <dimen name="city_info_margin_right">60dip</dimen>
+    <dimen name="health_tip_panel_height">140dp</dimen>
+    <dimen name="health_tip_grid_width">450dp</dimen>
+    <dimen name="index_list_width">550dp</dimen>
+    <dimen name="real_time_chart_height">390dp</dimen>
+    <dimen name="add_station_width">49dp</dimen>
+    <dimen name="add_station_height">43dp</dimen>
+    <dimen name="logo_size">110dp</dimen>
+    <dimen name="date_marginRight">5dp</dimen>
+    <dimen name="date_marginTop">10dp</dimen>
+    <dimen name="pullect_marginTop">18dp</dimen>
+    <dimen name="cursor_layout_height">110dp</dimen>
+    <dimen name="cursor_layout_width">90dp</dimen>
+    <dimen name="cursor_view_height">140dp</dimen>
+    <dimen name="cursor_view_marginLeft">21dp</dimen>
+    <dimen name="aqi_textsize">60sp</dimen>
+    <dimen name="health_padding">10dp</dimen>
+    <dimen name="pullect_number_margin">10dp</dimen>
+    <dimen name="gvheal_marginTop">8dp</dimen>
+    <dimen name="main_tab_height">50dp</dimen>
+    <dimen name="pv_textsize">21sp</dimen>
+    <dimen name="tip_img_height">50dp</dimen>
+    <dimen name="tip_img_width">45dp</dimen>
+    <dimen name="index_lable_minheight">100dp</dimen>
+    <dimen name="pm_title_height">40dp</dimen>
+    <dimen name="pm_title_textsize">25sp</dimen>
+    <dimen name="health_padding_bottom">5dp</dimen>
+    <dimen name="heal_tip_marginLeft">90dp</dimen>
+    <dimen name="heal_tip_marginTop">27dp</dimen>
+    <dimen name="heal_view_height">100dp</dimen>
+    <dimen name="primary_textSize">11sp</dimen>
+    <dimen name="primaryName_textSize">13sp</dimen>
+    <dimen name="arrows_width">9dp</dimen>
+    <dimen name="arrows_height">7dp</dimen>
+    <dimen name="smail_text_size">16sp</dimen>
+    <dimen name="mid_text_size">18sp</dimen>
+    <dimen name="gvHeal_marginLeft">20dp</dimen>
+    <dimen name="real_down_record_width">340dp</dimen>
+    <dimen name="record_view_padding_right">50dp</dimen>
+    <dimen name="record_view_padding_bottom">70dip</dimen>
+    <dimen name="bttom_tab_paddingRigth">0dp</dimen>
+    <dimen name="dialog_about_title_margin_top">120dip</dimen>
+    <dimen name="dialog_version_btn_margin_top">115dip</dimen>
+    <dimen name="density_minHeight">45dp</dimen>
+    <dimen name="youliang_text_size">15sp</dimen>
+    <dimen name="youliang_mintext_size">10sp</dimen>
+    <dimen name="youliang_titletext_size">18sp</dimen> 
+    <dimen name="menubutton_size">5sp</dimen>
+    <dimen name="loadversionname_size">6sp</dimen>
+  <!-- AQI页面指标柱状图高度 -->
+    <dimen name="realtimenew_pullect_number_minheight">150dp</dimen>
+      <!-- AQI页面指标柱状图距离顶部高度 -->
+    <dimen name="realtimenew_pullect_number_margintop">180dp</dimen>
+      <!-- 风向字体大小 -->
+    <dimen name="fengxiang_size">10sp</dimen>
+       <!-- 指标字体大小 -->
+    <dimen name="tvName_size">10sp</dimen>
+</resources>
